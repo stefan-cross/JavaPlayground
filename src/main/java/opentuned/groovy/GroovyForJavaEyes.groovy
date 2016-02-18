@@ -5,13 +5,16 @@ package opentuned.groovy
  * Created by stefan.cross on 17/02/2016.
  */
 
+// Groovy is built on the JVM and has all the Java methods at its disposal
+ println "Today is " + new Date()
+
 // Groovy lets you loop in very easy ways, note the short hand range syntax with ".."
 for(i in 0..10) {print "$i "}
 print "\n"
 
 println "Now wasn't that a breeze!"
 
-// But thats not the only way to skin this cat
+// But that's not the only way to skin this cat
 0.upto(10){ print "$it "}
 print "\n"
 
